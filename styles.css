@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: Lacquer;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+    background: repeat center/100% url(./assets/opossum_banner.jpg);
+    background-repeat: no-repeat;
+background-attachment: fixed;
+ background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb( 255, 255, 255, .5 );
+  border-radius: 10px;
+  height: auto;
+  width: 300px;
+  margin-left: 74%;
+  margin-top: 2%;
+}
+
+h1 {
+  margin: 8% 0% 4% 7%;
+  font-size: 200%;
+  font-family: Fredoka One;
+}
+
+h3 {
+  font-size: 80%;
+  margin-bottom: 5px;
+}
+
+h4 {
+  margin: 1%;
+  font-size: 80%;
+  font-family: Courier New;
+}
+
+input,
+#submit-button {
+  height: 30px;
+  width: 85%;
+  padding-left: 3%;
+  margin: 2%;
+  border-radius: 8px;
+  font-size: 100%;
+}
+
+
+#submit-button {
+  width: 85%;
+  margin: 4% 2% 8% 2%;
+}
+
+#submit-button:hover {
+  background: #ff0096;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.image-container {
+  margin-top: -6%;
+  margin-bottom: 5%;
+  background: repeat center/100% url(./assets/profile_1.png);
+  height: 120px;
+  width: 120px;
+  border-radius: 62px;
+  border: 3px solid #ff0096;
+}
+
+.heart-container {
+  background: center/100% url(./assets/heart_inactive.png);
+  height: 40px;
+  width: 40px;
+  margin-left: 70%;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+.heart-container:hover {
+  cursor: pointer;
+}
+
+.card {
+  background: rgb( 255, 255, 255, .7 );
+  height: 340px;
+  width: 260px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 30%;
+}
+
+.remove-button {
+  height: 26px;
+  width: 100px;
+  background-color: #ff0096;
+  border-radius: 13px;
+  margin: 5%;
+}
+
+.remove-button:hover {
+  cursor: pointer;
+  background-color: #e400ff;
+}
+
+span {
+  font-size: 80%;
+}
+
+.p-name,
+.p-diet,
+.p-likes,
+.p-dislikes {
+  font-size: 150%;
+}
